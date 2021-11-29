@@ -1,71 +1,57 @@
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="Paul's personal website, listing his background and activities.">
-    <meta name="viewport" content="width=device-width">
-    <title>Paul's Page</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta name="description" content="Paul's bio page, listing background and abilities.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="paulemoji.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <title>Paul Haubourdin</title>
   </head>
   <body>
-    <table cellspacing=20>
-      <tr>
-        <td>
-          <img width="200" height="200" src="images/PaulSquare.jpg">
-        </td>
-        <td>
-          <h1>Paul Haubourdin</h1>
-          <p><em>Independent programmer & Instrument Flight Procedure Design specialist</em></p>
-        </td>
-      </tr>
-    </table>
-    <hr>
-    <p>I'm a trained and highly experienced Instrument Flight Procedure Design specialist, with a thorough understanding
-      of all ICAO regulations related to the field of Instrument Flight Procedures, Aeronautical Information and Aviation
-      Safety. My experience as a pilot as well as an air traffic controller, combined with the pragmatic approach
-      cultivated through my years in the military, and the time spent on several international regulatory panels
-      provide me with unique insight in the practical implications as well as the theory involved with IFPD.</p>
-    <p>My passion for open-source software and freedom of choice have driven me to start learning programming. My intention
-      is to one day be able to create IFPD software that can run on multiple OS, allowing people in the field of IFPD to
-      finally break free from the confines of Windows based software. The ability to draw relatively simple geometry and
-      perform the rudimentory maths required for IFPD work should not require hi-powered industrial computers and sophisticated
-      CAD software. The historical reliance on CAD software to do IFPD work is no longer justified: in the current world where
-      the focus is on interoperability and obstacle datasets and terrain data are increasingly detailed and complex it makes
-      far more sense to perform IFPD work in a GIS environment where obstacle and terrain data is native.</p>
-    <hr>
-    <h3>Education</h3>
-    <ul>
-      <li>Klein Seminarie, Hoogstraten, Belgium</li>
-      <li>Jakarta International School, Jakarta, Indonesia</li>
-      <li>Perth Institude of Business and Technology, Perth, Australia</li>
-      <li>Helipods Flight School, Auckland, New Zealand</li>
-      <li>Royal Military Academy, Brussels, Belgium</li>
-      <li>Ecole Nationale d'Aviation Civile, Toulouse, France</li>
-    </ul>
-    <h3>Experience</h3>
-    <table>
-      <thead>
-        <tr>
-          <th>Dates</th>
-          <th>Position</th>
-          <th>Employer</th>
-        </tr>
-      </thead>
-      <tr>
-        <td>1999</td>
-        <td>Standards and Procedures Officer</td>
-        <td>Helizona, Jakarta, Indonesia</td>
-      </tr>
-      <tr>
-        <td>2007-2008</td>
-        <td>Air Traffic Controller</td>
-        <td>Belgian Ministry of Defense</td>
-      </tr>
-    </table>
 
-    <a href="hobbies.html"><h3>Hobbies</h3></a>
-    <a href="contact.html"><h3>Contact Me</h3></a>
-    <a href="inputs.html">Test pages showing different input types</a>
-    <hr>
-    </body>
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+      <h1>I'm Paul,</h1>
+      <h2>an aspiring programmer.</h2>
+      <img class="bottom-cloud"src="images/cloud.png" alt="cloud-img">
+      <img src="images/mountain.png" alt="cloud.img">
+    </div>
+
+    <div class="middle-container">
+      <div class="profile">
+        <img class="icon emoji-icon" src="images/emoji.png" alt="paul-emoji-img" width=200px>
+        <h2>Hello.</h2>
+        <p>Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row left-row">
+          <img class="icon skill-icon left-icon" src="images/computer.png" alt="computer-image">
+          <h3>Lorem & Ipsum</h3>
+          <p class="skill-text">Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+        </div>
+        <div class="skill-row right-row">
+          <img class="icon skill-icon right-icon" src="images/motorcycle.png" alt="motorcycle-image">
+          <h3>Lorem Ipsum Dolor</h3>
+          <p class="skill-text">Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+        </div>
+      </div>
+      <hr>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+        <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+        <a class="btn" href="mailto:paul@haubourdin.net">CONTACT ME</a>
+      </div>
+    </div>
+
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <a class="footer-link" href="http://www.haubourdin.net/">Website</a>
+      <p>© 2021 Paul Haubourdin.</p>
+    </div>
+
+  </body>
 </html>

@@ -1,0 +1,119 @@
+/*
+color 1: #FBE6C2
+color 2: #F0C929
+color 3: #F48B29
+color 4: #AC0D0D
+
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive;
+*/
+
+/*----------- ELEMENT SELECTIONS -----------*/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #AC0D0D;
+}
+div {
+}
+h1 {
+  margin: 50px auto 0px;
+  font-family: 'Sacramento', cursive;
+  font-size: 5em;
+}
+h2 {
+  margin: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+h3 {
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+}
+p {
+  margin: 0px;
+}
+a {
+  color: #F48B29;
+}
+hr {
+  border-style: dotted none none;
+  border-color: #FBE6C2;
+  border-width: 10px;
+  height: 2px;
+  width: 20%;
+}
+
+/*-------------- CLASS SELECTIONS -----------*/
+
+.top-cloud {
+  position: absolute;
+  right: 20%;
+  top: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 20%;
+  bottom: 300px;
+}
+.top-container {
+  position: relative;
+  background-color: #FBE6C2;
+  padding-top: 100px;
+  padding-bottom: 0px;
+}
+.middle-container {
+  background-color: #F0C929;
+}
+.profile {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.icon {
+  background-color: #FBE6C2;
+  border-radius: 50%;
+}
+.emoji-icon {
+  width: 200px;
+}
+.skills {
+  padding-top: 20px;
+  paddint-bottom: 50px;
+}
+.skill-icon {
+  width: 25%;
+}
+.left-icon {
+  float: left;
+  margin-right: 30px;
+}
+.right-icon {
+  float: right;
+  margin-left: 30px;
+}
+.skill-row {
+  display: inline-block;
+  width: 70%;
+  padding-bottom: 30px;
+}
+.skill-text {
+  line-height: 2;
+}
+.left-row {
+  text-align: left;
+}
+.right-row {
+  text-align: right;
+}
+.contact-me {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.bottom-container {
+  background-color: #FBE6C2;
+  padding-top: 30px;
+}
